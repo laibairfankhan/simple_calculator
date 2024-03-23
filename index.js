@@ -6,7 +6,7 @@ const answer = await inquirer.prompt([
     { message: "select one of the operator to perform operation",
         type: "list",
         name: "operator",
-        choices: ["Addition", "Subtraction", "Multiplication", "Division", "Exponential", "Module"],
+        choices: ["Addition", "Subtraction", "Multiplication", "Division", "Exponentiation", "Modulus"],
     }
 ]);
 if (answer.operator === "Addition") {
